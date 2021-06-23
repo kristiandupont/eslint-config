@@ -1,10 +1,10 @@
 {
   "name": "@kristiandupont/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kristiandupont/esilnt-config-kristian-base.git"
+    "url": "git@github.com:kristiandupont/eslint-config-kristian-base.git"
   },
   "author": "Kristian Dupont <kristian@kristiandupont.com>",
   "license": "MIT",
