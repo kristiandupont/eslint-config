@@ -10,7 +10,7 @@ module.exports = {
     "plugin:ramda/recommended",
   ],
 
-  plugins: ["prettier", "jest", "ramda"],
+  plugins: ["prettier", "jest", "ramda", "simple-import-sort"],
 
   overrides: [
     {
