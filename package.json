@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kristiandupont/esilnt-config-kristian-base.git",
+    "url": "git@github.com:kristiandupont/esilnt-config-kristian-base.git"
   },
   "author": "Kristian Dupont <kristian@kristiandupont.com>",
   "license": "MIT",
