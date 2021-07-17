@@ -43,8 +43,8 @@ module.exports = {
     },
     {
       files: [
-        "*.{spec,test}.{js,ts,tsx}",
-        "**/__{mocks,tests}__/**/*.{js,ts,tsx}",
+        "*.{spec,test}.{js,jsx,ts,tsx}",
+        "**/__{mocks,tests}__/**/*.{js,jsx,ts,tsx}",
       ],
       env: {
         jest: true,
