@@ -16,6 +16,7 @@ module.exports = {
   env: {
     amd: true,
     node: true,
+    es6: true
   },
 
   overrides: [
