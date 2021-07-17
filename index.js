@@ -5,12 +5,18 @@ module.exports = {
   },
 
   extends: [
+    "eslint:recommended",
     "plugin:prettier/recommended", // https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
     "prettier/prettier",
     "plugin:ramda/recommended",
   ],
 
   plugins: ["prettier", "jest", "ramda", "simple-import-sort"],
+
+  env: {
+    amd: true,
+    node: true,
+  },
 
   overrides: [
     {
