@@ -16,7 +16,7 @@ module.exports = {
   env: {
     amd: true,
     node: true,
-    es6: true
+    es6: true,
   },
 
   overrides: [
@@ -39,6 +39,7 @@ module.exports = {
           { argsIgnorePattern: "^_" },
         ],
         "no-unused-vars": "off",
+        "no-undef": "off",
       },
     },
     {
