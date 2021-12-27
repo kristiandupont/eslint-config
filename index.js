@@ -86,5 +86,6 @@ module.exports = {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "arrow-body-style": ["error", "as-needed"],
+    "prefer-const": "error",
   },
 };
