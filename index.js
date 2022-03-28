@@ -38,6 +38,7 @@ module.exports = {
           "error",
           { argsIgnorePattern: "^_" },
         ],
+        "@typescript-eslint/prefer-nullish-coalescing": "error",
         "no-unused-vars": "off",
         "no-undef": "off",
       },
