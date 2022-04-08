@@ -36,7 +36,7 @@ module.exports = {
       rules: {
         "@typescript-eslint/no-unused-vars": [
           "error",
-          { argsIgnorePattern: "^_" },
+          { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
         ],
         "@typescript-eslint/prefer-nullish-coalescing": "error",
         "no-unused-vars": "off",
@@ -73,7 +73,10 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "no-unused-expressions": "error",
-    "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "no-unused-vars": [
+      "error",
+      { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+    ],
     "no-implicit-coercion": "error",
     "no-unused-labels": "error",
     "no-process-env": "error",
