@@ -9,6 +9,7 @@
   "author": "Kristian Dupont <kristian@kristiandupont.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.18.0",
     "@babel/eslint-parser": "^7.14.7",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "5.26.0",
