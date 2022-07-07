@@ -8,10 +8,9 @@ module.exports = {
     "eslint:recommended",
     "plugin:prettier/recommended", // https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
     "prettier/prettier",
-    "plugin:ramda/recommended",
   ],
 
-  plugins: ["prettier", "jest", "ramda", "simple-import-sort"],
+  plugins: ["prettier", "simple-import-sort"],
 
   env: {
     amd: true,
@@ -39,6 +38,7 @@ module.exports = {
           { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
         ],
         "@typescript-eslint/prefer-nullish-coalescing": "error",
+        "@typescript-eslint/explicit-module-boundary-types": "error",
         "no-unused-vars": "off",
         "no-undef": "off",
       },
@@ -48,16 +48,7 @@ module.exports = {
         "*.{spec,test}.{js,jsx,ts,tsx}",
         "**/__{mocks,tests}__/**/*.{js,jsx,ts,tsx}",
       ],
-      env: {
-        jest: true,
-        "jest/globals": true,
-      },
       rules: {
-        "jest/no-disabled-tests": "warn",
-        "jest/no-focused-tests": "error",
-        "jest/no-identical-title": "error",
-        "jest/prefer-to-have-length": "warn",
-        "jest/valid-expect": "error",
         "import/no-extraneous-dependencies": "off",
         "import/no-duplicates": "off",
         "no-underscore-dangle": "off",
